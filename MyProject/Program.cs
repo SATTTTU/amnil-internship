@@ -18,6 +18,11 @@ namespace MyProject
                 Assignment2 a2 = new Assignment2();
                 a2.Run(args);
             }
+            else if (choice == "3")
+            {
+                SimpleCalculator calc = new SimpleCalculator();
+                calc.Run(args);
+            }
             else
             {
                 Console.WriteLine("Invalid choice.");
