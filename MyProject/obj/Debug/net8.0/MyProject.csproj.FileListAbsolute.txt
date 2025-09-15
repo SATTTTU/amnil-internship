@@ -1,0 +1,14 @@
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.AssemblyInfoInputs.cache
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.AssemblyInfo.cs
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.csproj.CoreCompileInputs.cache
+/home/satish-timalsina/git-experiment/MyProject/bin/Debug/net8.0/MyProject
+/home/satish-timalsina/git-experiment/MyProject/bin/Debug/net8.0/MyProject.deps.json
+/home/satish-timalsina/git-experiment/MyProject/bin/Debug/net8.0/MyProject.runtimeconfig.json
+/home/satish-timalsina/git-experiment/MyProject/bin/Debug/net8.0/MyProject.dll
+/home/satish-timalsina/git-experiment/MyProject/bin/Debug/net8.0/MyProject.pdb
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.dll
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/refint/MyProject.dll
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.pdb
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/MyProject.genruntimeconfig.cache
+/home/satish-timalsina/git-experiment/MyProject/obj/Debug/net8.0/ref/MyProject.dll
