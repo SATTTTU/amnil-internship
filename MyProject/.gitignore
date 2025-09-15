@@ -1,0 +1,27 @@
+# Ignore build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore VS Code settings (optional, if you don’t want to share workspace config)
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore backup files
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
