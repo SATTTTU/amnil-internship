@@ -2,9 +2,12 @@ using System;
 
 namespace MyProject
 {
+    /// <summary>
+    /// A simple calculator that performs basic arithmetic operations and calculates compound interest.
+    /// </summary>
     public class SimpleCalculator
     {
-        public  void Run(string[] args)
+        public void Run(string[] args)
         {
             Console.WriteLine("--- Simple Calculator ---");
             Console.Write("Enter first number: ");

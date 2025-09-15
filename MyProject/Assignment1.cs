@@ -1,9 +1,12 @@
 using System;
 namespace MyProject
-{
+{   
+    /// <summary>
+    /// Assignment 1: Collect and display student information
+    /// </summary>
     public class Assignment1
     {
-        public  void Run(string[] args)
+        public void Run(string[] args)
         {
             // Input name
             Console.Write("Enter your name: ");
