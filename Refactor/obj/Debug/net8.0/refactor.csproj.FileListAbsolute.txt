@@ -1,0 +1,14 @@
+/home/satish-timalsina/git-experiment/Refactor/bin/Debug/net8.0/refactor
+/home/satish-timalsina/git-experiment/Refactor/bin/Debug/net8.0/refactor.deps.json
+/home/satish-timalsina/git-experiment/Refactor/bin/Debug/net8.0/refactor.runtimeconfig.json
+/home/satish-timalsina/git-experiment/Refactor/bin/Debug/net8.0/refactor.dll
+/home/satish-timalsina/git-experiment/Refactor/bin/Debug/net8.0/refactor.pdb
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.GeneratedMSBuildEditorConfig.editorconfig
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.AssemblyInfoInputs.cache
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.AssemblyInfo.cs
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.csproj.CoreCompileInputs.cache
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.dll
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refint/refactor.dll
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.pdb
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/refactor.genruntimeconfig.cache
+/home/satish-timalsina/git-experiment/Refactor/obj/Debug/net8.0/ref/refactor.dll
