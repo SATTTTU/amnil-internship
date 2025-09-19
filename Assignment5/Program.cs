@@ -9,15 +9,23 @@ public class UseCase
             // CheckUtilities program =new CheckUtilities ();
             // program.Run(args);
 
-        Book b1=new Book(1,"C# ","John Doe");
-        Book b2 =new Book(2,"Java ","Jane Smith");
-        Member m1=new Member (1,"siva");
-        Member m2 =new Member (2,"ram");
-        m1.Borrow(b1);
-        m2.Borrow(b1);
-        m2.Borrow(b2);
-        m1.Return(b1);
-        m1.Borrow(b1);
+        // Book b1=new Book(1,"C# ","John Doe");
+        // Book b2 =new Book(2,"Java ","Jane Smith");
+        // Member m1=new Member (1,"siva");
+        // Member m2 =new Member (2,"ram");
+        // m1.Borrow(b1);
+        // m2.Borrow(b1);
+        // m2.Borrow(b2);
+        // m1.Return(b1);
+        // m1.Borrow(b1);
+         BankAccount account = new BankAccount("ACC123", "Alice", 1000m);
+
+            account.Deposit(500m);
+            account.Withdraw(200m);
+            account.Withdraw(1500m); 
+            account.Deposit(300m);
+
+            account.CheckBalance();
         
     }
 
