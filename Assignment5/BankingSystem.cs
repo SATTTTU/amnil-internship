@@ -7,7 +7,7 @@ namespace Assignment5
     {
         public string AccountNumber { get; set; }
         public string HolderName { get; set; }
-        public decimal Balance { get; private set; } // private set for encapsulation
+        public decimal Balance { get; private set; } 
         public List<Transaction> Transactions { get; set; }
 
         public BankAccount(string accountNumber, string holderName, decimal initialBalance)

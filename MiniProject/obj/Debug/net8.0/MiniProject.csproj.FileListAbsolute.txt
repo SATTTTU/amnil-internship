@@ -1,0 +1,14 @@
+/home/satish-timalsina/git-experiment/MiniProject/bin/Debug/net8.0/MiniProject
+/home/satish-timalsina/git-experiment/MiniProject/bin/Debug/net8.0/MiniProject.deps.json
+/home/satish-timalsina/git-experiment/MiniProject/bin/Debug/net8.0/MiniProject.runtimeconfig.json
+/home/satish-timalsina/git-experiment/MiniProject/bin/Debug/net8.0/MiniProject.dll
+/home/satish-timalsina/git-experiment/MiniProject/bin/Debug/net8.0/MiniProject.pdb
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.AssemblyInfoInputs.cache
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.AssemblyInfo.cs
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.csproj.CoreCompileInputs.cache
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.dll
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/refint/MiniProject.dll
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.pdb
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/MiniProject.genruntimeconfig.cache
+/home/satish-timalsina/git-experiment/MiniProject/obj/Debug/net8.0/ref/MiniProject.dll
