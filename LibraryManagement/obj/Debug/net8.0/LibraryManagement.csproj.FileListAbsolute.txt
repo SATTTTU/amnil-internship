@@ -1,0 +1,14 @@
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.AssemblyInfoInputs.cache
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.AssemblyInfo.cs
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.csproj.CoreCompileInputs.cache
+/home/satish-timalsina/git-experiment/LibraryManagement/bin/Debug/net8.0/LibraryManagement
+/home/satish-timalsina/git-experiment/LibraryManagement/bin/Debug/net8.0/LibraryManagement.deps.json
+/home/satish-timalsina/git-experiment/LibraryManagement/bin/Debug/net8.0/LibraryManagement.runtimeconfig.json
+/home/satish-timalsina/git-experiment/LibraryManagement/bin/Debug/net8.0/LibraryManagement.dll
+/home/satish-timalsina/git-experiment/LibraryManagement/bin/Debug/net8.0/LibraryManagement.pdb
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.dll
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/refint/LibraryManagement.dll
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.pdb
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/LibraryManagement.genruntimeconfig.cache
+/home/satish-timalsina/git-experiment/LibraryManagement/obj/Debug/net8.0/ref/LibraryManagement.dll
