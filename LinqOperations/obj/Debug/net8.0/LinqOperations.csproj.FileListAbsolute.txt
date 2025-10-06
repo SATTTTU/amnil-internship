@@ -1,0 +1,14 @@
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.GeneratedMSBuildEditorConfig.editorconfig
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.AssemblyInfoInputs.cache
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.AssemblyInfo.cs
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.csproj.CoreCompileInputs.cache
+/home/satish-timalsina/git-experiment/LinqOperations/bin/Debug/net8.0/LinqOperations
+/home/satish-timalsina/git-experiment/LinqOperations/bin/Debug/net8.0/LinqOperations.deps.json
+/home/satish-timalsina/git-experiment/LinqOperations/bin/Debug/net8.0/LinqOperations.runtimeconfig.json
+/home/satish-timalsina/git-experiment/LinqOperations/bin/Debug/net8.0/LinqOperations.dll
+/home/satish-timalsina/git-experiment/LinqOperations/bin/Debug/net8.0/LinqOperations.pdb
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.dll
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/refint/LinqOperations.dll
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.pdb
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/LinqOperations.genruntimeconfig.cache
+/home/satish-timalsina/git-experiment/LinqOperations/obj/Debug/net8.0/ref/LinqOperations.dll

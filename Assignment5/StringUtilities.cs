@@ -1,43 +1,6 @@
 using System;
 namespace Assignment5{
-    public class StringUtilities {
-        public static string CountWords(string input){
-            if(string.IsNullOrWhiteSpace(input)){
-                return "Input string is empty or null.";
-            }
-            var words = input.Split(new char[] {' ', '\t', '\n'}, StringSplitOptions.RemoveEmptyEntries);
-            return $"The input string contains {words.Length} words.";
-        }
-        public static string ReverseString(string input){
-            if(input == null){
-                return "Input string is null.";
-            }
-            char[] charArray = input.ToCharArray();
-            Array.Reverse(charArray);
-            return new string(charArray);
-        }
-        public static bool IsPalindrome(string input){
-            if(input == null){
-                return false;
-            }
-            int left = 0;
-            int right = input.Length - 1;
-            while(left < right){
-                if(input[left] != input[right]){
-                    return false;
-                }
-                left++;
-                right--;
-            }
-            return true;
-        }
-        public static string RemoveSpace(string input){
-            if(input == null){
-                return "Input string is null.";
-            }
-            return input.Replace(" ", "");
-        }
-    }
+   
     public class CheckUtilities {
         public void Run(string[] args) {
             bool running =true;
