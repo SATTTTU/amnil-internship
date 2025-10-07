@@ -1,0 +1,15 @@
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\bin\Debug\net9.0\FileOperation.exe
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\bin\Debug\net9.0\FileOperation.deps.json
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\bin\Debug\net9.0\FileOperation.runtimeconfig.json
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\bin\Debug\net9.0\FileOperation.dll
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\bin\Debug\net9.0\FileOperation.pdb
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.AssemblyInfoInputs.cache
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.AssemblyInfo.cs
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.csproj.CoreCompileInputs.cache
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.sourcelink.json
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.dll
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\refint\FileOperation.dll
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.pdb
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\FileOperation.genruntimeconfig.cache
+C:\Users\Satish\source\repos\SATTTTU\amnil-internship\FileOperation\obj\Debug\net9.0\ref\FileOperation.dll
