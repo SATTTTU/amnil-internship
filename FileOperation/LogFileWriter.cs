@@ -7,7 +7,7 @@ namespace FileOperation
     {
         private readonly string _logFilePath;
 
-        public LogFileWriter(string logFilePath = "application.log")
+        public LogFileWriter(string logFilePath = "app.log")
         {
             _logFilePath = logFilePath;
         }

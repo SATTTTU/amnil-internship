@@ -71,11 +71,11 @@ public class TextFileProcessor
 				Console.WriteLine("No matches found.");
 			}
 
-			_logger.Log($"Searched for '{searchText}' in file: {_filePath} — Found {foundCount} time(s).");
+			_logger.Log($"Searched for '{searchText}' in file: {_filePath}  Found {foundCount} times.");
 		}
 		catch (Exception ex)
 		{
-			_logger.Log("Error in SearchText: " + ex.Message);
+			_logger.Log("Error in textserch " + ex.Message);
 		}
 	}
 }

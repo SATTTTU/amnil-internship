@@ -28,21 +28,22 @@ namespace FileOperation
 
                 Console.Write("Your choice: ");
                 string choice = Console.ReadLine();
+                int choiceNumber = int.Parse(choice);
 
-                switch (choice)
+                switch (choiceNumber)
                 {
-                    case "1":
+                    case 1:
                         processor.CountContents();
                         break;
-                    case "2":
+                    case 2:
                         processor.CreateBackup();
                         break;
-                    case "3":
+                    case 3:
                         Console.Write("Enter text to search: ");
                         string searchText = Console.ReadLine();
                         processor.SearchText(searchText);
                         break;
-                    case "4":
+                    case 4:
                         Console.WriteLine("Exiting.");
                         return;
                     default:
