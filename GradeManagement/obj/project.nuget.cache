@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "b65TKB6TRDw=",
+  "dgSpecHash": "fS1a4TDcziQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Satish\\source\\repos\\SATTTTU\\amnil-internship\\GradeManagement\\GradeManagement.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Satish\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\Satish\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Satish\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Satish\\.nuget\\packages\\npgsql\\9.0.4\\npgsql.9.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
