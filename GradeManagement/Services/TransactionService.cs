@@ -3,7 +3,6 @@ using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-
 namespace GradeManagement.Services
 {
     public class TransactionService
