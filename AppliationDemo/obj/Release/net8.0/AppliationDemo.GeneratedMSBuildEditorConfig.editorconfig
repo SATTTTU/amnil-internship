@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppliationDemo
+build_property.RootNamespace = AppliationDemo
+build_property.ProjectDir = C:\Users\Satish\source\repos\AppliationDemo\AppliationDemo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Satish\source\repos\AppliationDemo\AppliationDemo
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/BankAccount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua0FjY291bnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/BankAccount/Deposit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua0FjY291bnRcRGVwb3NpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/BankAccount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua0FjY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/BankAccount/Withdraw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua0FjY291bnRcV2l0aGRyYXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/Transaction/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/Transaction/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Satish/source/repos/AppliationDemo/AppliationDemo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

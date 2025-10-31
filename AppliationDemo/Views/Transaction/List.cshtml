@@ -1,0 +1,40 @@
+﻿@model IEnumerable<AppliationDemo.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Transactions List";
+}
+
+<h2>Transactions for Account ID: @ViewBag.AccountId</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info mt-3">
+        No transactions found for this account.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-striped mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var txn in Model)
+            {
+                <tr>
+                    <td>@txn.TransactionId</td>
+                    <td>@txn.TransactionType</td>
+                    <td>Rs. @txn.Amount</td>
+                    <td>@txn.TransactionDate.ToString("yyyy-MM-dd HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a asp-action="Search" class="btn btn-secondary mt-3">Back</a>
