@@ -6,7 +6,11 @@
 
 <h2>Transactions for Account ID: @ViewBag.AccountId</h2>
 
-@if (Model == null || !Model.Any())
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+else if (Model == null || !Model.Any())
 {
     <div class="alert alert-info mt-3">
         No transactions found for this account.

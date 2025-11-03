@@ -16,7 +16,6 @@ namespace AppliationDemo.Controllers
         [HttpGet]
         public IActionResult Search()
         {
-            // A small view with a form to input Account ID
             return View();
         }
 

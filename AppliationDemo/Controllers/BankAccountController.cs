@@ -1,6 +1,7 @@
 ﻿using AppliationDemo.Services;
 using AppliationDemo.DTOs;
 using AppliationDemo.Repositories;
+using AppliationDemo.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -17,22 +18,39 @@ namespace AppliationDemo.Controllers
             _accountRepo = accountRepo;
         }
 
+        // ----------------- LIST ALL ACCOUNTS -----------------
         public async Task<IActionResult> Index()
         {
             var accounts = await _accountRepo.GetAllAsync();
             return View(accounts);
         }
 
+        // ----------------- CREATE ACCOUNT -----------------
         [HttpGet]
         public IActionResult Create() => View();
 
         [HttpPost]
-        public async Task<IActionResult> Create(BankAccountDto dto)
+        public async Task<IActionResult> Create(BankAccount dto)
         {
-            await _bankService.CreateAccount(dto);
+            if (!ModelState.IsValid)
+            {
+                // If validation fails, redisplay the form
+                return View(dto);
+            }
+
+            var newAccount = new BankAccountDto
+            {
+                AccountNumber = dto.AccountNumber,
+                AccountHolder = dto.AccountHolder,
+                Balance = dto.Balance
+            };
+
+            await _bankService.CreateAccount(newAccount);
+            TempData["Success"] = "Account created successfully!";
             return RedirectToAction("Index");
         }
 
+        // ----------------- DEPOSIT -----------------
         [HttpGet]
         public async Task<IActionResult> Deposit(int id)
         {
@@ -40,16 +58,29 @@ namespace AppliationDemo.Controllers
             if (account == null)
                 return NotFound();
 
-            return View(account); 
+            return View(account);
         }
 
         [HttpPost]
         public async Task<IActionResult> Deposit(TransactionDto dto)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(dto);
+            }
+
+            if (dto.Amount <= 0)
+            {
+                ModelState.AddModelError("Amount", "Deposit amount must be greater than zero.");
+                return View(dto);
+            }
+
             await _bankService.Deposit(dto);
+            TempData["Success"] = "Deposit successful!";
             return RedirectToAction("Index");
         }
 
+        // ----------------- WITHDRAW -----------------
         [HttpGet]
         public async Task<IActionResult> Withdraw(int id)
         {
@@ -63,9 +94,28 @@ namespace AppliationDemo.Controllers
         [HttpPost]
         public async Task<IActionResult> Withdraw(TransactionDto dto)
         {
-            await _bankService.Withdraw(dto);
-            return RedirectToAction("Index");
-        }
+            if (!ModelState.IsValid)
+            {
+                return View(dto);
+            }
 
+            if (dto.Amount <= 0)
+            {
+                ModelState.AddModelError("Amount", "Withdraw amount must be greater than zero.");
+                return View(dto);
+            }
+
+            try
+            {
+                await _bankService.Withdraw(dto);
+                TempData["Success"] = "Withdrawal successful!";
+                return RedirectToAction("Index");
+            }
+            catch (System.Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View(dto);
+            }
+        }
     }
 }

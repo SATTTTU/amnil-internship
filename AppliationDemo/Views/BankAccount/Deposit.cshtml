@@ -1,4 +1,4 @@
-﻿@model BankAccount
+﻿@model AppliationDemo.DTOs.TransactionDto
 
 @{
     ViewData["Title"] = "Deposit";
@@ -7,11 +7,22 @@
 <h2>Deposit to Account</h2>
 
 <form asp-action="Deposit" method="post">
-    <input type="hidden" name="AccountId" value="@Model.Id" /> 
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input asp-for="AccountId" type="hidden" />
+
     <div class="mb-3">
-        <label class="form-label">Amount to Deposit</label>
-        <input name="Amount" type="number" step="0.01" class="form-control" required /> 
+        <label asp-for="Amount" class="form-label"></label>
+        <input asp-for="Amount" type="number" step="0.01" class="form-control" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-success">Deposit</button>
     <a asp-action="Index" class="btn btn-secondary">Back</a>
 </form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

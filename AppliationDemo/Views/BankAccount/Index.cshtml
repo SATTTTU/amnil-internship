@@ -1,10 +1,15 @@
-﻿@model IEnumerable<BankAccount>
+﻿@model IEnumerable<AppliationDemo.Models.BankAccount>
 
 @{
     ViewData["Title"] = "Bank Accounts";
 }
 
 <h2 class="mb-3">Bank Accounts</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
 
 <a asp-action="Create" class="btn btn-primary mb-3">+ Create Account</a>
 
@@ -19,26 +24,30 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var account in Model)
+        @if (Model != null && Model.Any())
+        {
+            foreach (var account in Model)
+            {
+                <tr>
+                    <td>@account.Id</td>
+                    <td>@account.AccountNumber</td>
+                    <td>@account.AccountHolder</td>
+                    <td>Rs. @account.Balance</td>
+                    <td>
+                        <a asp-action="Deposit" asp-route-id="@account.Id" class="btn btn-success btn-sm">Deposit</a>
+                        <a asp-action="Withdraw" asp-route-id="@account.Id" class="btn btn-warning btn-sm">Withdraw</a>
+                        <a asp-controller="Transaction" asp-action="List" asp-route-accountId="@account.Id" class="btn btn-info btn-sm">
+                            View Transactions
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+        else
         {
             <tr>
-                <td>@account.Id</td>
-                <td>@account.AccountNumber</td>
-                <td>@account.AccountHolder</td>
-                <td>Rs. @account.Balance</td>
-                <td>
-                    <a asp-action="Deposit" asp-route-id="@account.Id" class="btn btn-success btn-sm">Deposit</a>
-                    <a asp-action="Withdraw" asp-route-id="@account.Id" class="btn btn-warning btn-sm">Withdraw</a>
-                    <a asp-controller="Transaction" asp-action="List" asp-route-accountId="@account.Id" class="btn btn-info btn-sm">
-                        View Transactions
-                    </a>
-                </td>
+                <td colspan="5" class="text-center text-muted">No accounts found.</td>
             </tr>
         }
     </tbody>
 </table>
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
