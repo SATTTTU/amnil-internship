@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\transaction\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\transaction\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\transaction\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\transaction\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\services\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\services\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\repositories\\bankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\repositories\\bankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\dtos\\bankaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\dtos\\bankaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\bankaccount\\deposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\bankaccount\\deposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\repositories\\interfaces\\ibankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\repositories\\interfaces\\ibankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\bankaccount\\withdraw.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\bankaccount\\withdraw.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\bankaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\bankaccount\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\views\\bankaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\views\\bankaccount\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|c:\\users\\satish\\source\\repos\\appliationdemo\\appliationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBDF5204-2A25-4606-8BC2-D3D5255C429E}|AppliationDemo\\AppliationDemo.csproj|solutionrelative:appliationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Transaction\\List.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\Transaction\\List.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Transaction\\List.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\Transaction\\List.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T13:56:19.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BankAccountDto.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\DTOs\\BankAccountDto.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\DTOs\\BankAccountDto.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\DTOs\\BankAccountDto.cs",
+              "RelativeToolTip": "AppliationDemo\\DTOs\\BankAccountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:19:17.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\BankAccountRepository.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Repositories\\BankAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\BankAccountRepository.cs",
+              "RelativeToolTip": "AppliationDemo\\Repositories\\BankAccountRepository.cs",
+              "ViewState": "AgIAAAwAAACAlZmZmZkZwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:23:04.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Controllers\\BankAccountController.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Controllers\\BankAccountController.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Controllers\\BankAccountController.cs",
+              "RelativeToolTip": "AppliationDemo\\Controllers\\BankAccountController.cs",
+              "ViewState": "AgIAAHcAAABAZWZmZmYiwIsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:26:28.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\DTOs\\TransactionDto.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\DTOs\\TransactionDto.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\DTOs\\TransactionDto.cs",
+              "RelativeToolTip": "AppliationDemo\\DTOs\\TransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:22:33.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "AppliationDemo\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAD4AAACAy8zMzEwuwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:21:53.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Transaction\\Search.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\Transaction\\Search.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Transaction\\Search.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\Transaction\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T13:56:45.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Deposit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Deposit.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\BankAccount\\Deposit.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Deposit.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\BankAccount\\Deposit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T07:24:57.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Services\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Services\\TransactionService.cs",
+              "RelativeToolTip": "AppliationDemo\\Services\\TransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:23:54.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BankService.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Services\\BankService.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Services\\BankService.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Services\\BankService.cs",
+              "RelativeToolTip": "AppliationDemo\\Services\\BankService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:18:12.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Models\\Transaction.cs",
+              "RelativeToolTip": "AppliationDemo\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:22:54.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Models\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Models\\BankAccount.cs",
+              "RelativeToolTip": "AppliationDemo\\Models\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:19:06.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBankAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\Interfaces\\IBankAccountRepository.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Repositories\\Interfaces\\IBankAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\Interfaces\\IBankAccountRepository.cs",
+              "RelativeToolTip": "AppliationDemo\\Repositories\\Interfaces\\IBankAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:23:25.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "AppliationDemo\\Repositories\\Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:23:34.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:26:45.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Withdraw.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Withdraw.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\BankAccount\\Withdraw.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Withdraw.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\BankAccount\\Withdraw.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:24:31.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Index.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\BankAccount\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Index.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\BankAccount\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:24:22.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:32:47.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T10:29:40.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Create.cshtml",
+              "RelativeDocumentMoniker": "AppliationDemo\\Views\\BankAccount\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Views\\BankAccount\\Create.cshtml",
+              "RelativeToolTip": "AppliationDemo\\Views\\BankAccount\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T07:23:43.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "AppliationDemo\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA4wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:23:14.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Program.cs",
+              "RelativeDocumentMoniker": "AppliationDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\Satish\\source\\repos\\AppliationDemo\\AppliationDemo\\Program.cs",
+              "RelativeToolTip": "AppliationDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:20:58.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

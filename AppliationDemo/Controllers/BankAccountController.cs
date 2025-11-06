@@ -3,6 +3,8 @@ using AppliationDemo.DTOs;
 using AppliationDemo.Repositories;
 using AppliationDemo.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
 using System.Threading.Tasks;
 
 namespace AppliationDemo.Controllers
@@ -11,109 +13,185 @@ namespace AppliationDemo.Controllers
     {
         private readonly BankService _bankService;
         private readonly IBankAccountRepository _accountRepo;
+        private readonly ILogger<BankAccountController> _logger;
 
-        public BankAccountController(IBankAccountRepository accountRepo, ITransactionRepository transactionRepo)
+        public BankAccountController(
+            IBankAccountRepository accountRepo,
+            ITransactionRepository transactionRepo,
+            ILogger<BankAccountController> logger)
         {
-            _bankService = new BankService(accountRepo, transactionRepo);
-            _accountRepo = accountRepo;
+            try
+            {
+                _bankService = new BankService(accountRepo, transactionRepo);
+                _accountRepo = accountRepo;
+                _logger = logger;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error initializing BankAccountController.");
+                throw;
+            }
         }
 
-        // ----------------- LIST ALL ACCOUNTS -----------------
         public async Task<IActionResult> Index()
         {
-            var accounts = await _accountRepo.GetAllAsync();
-            return View(accounts);
+            try
+            {
+                var accounts = await _accountRepo.GetAllAsync();
+                return View(accounts);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading accounts.");
+                TempData["Error"] = "Error fetching accounts.";
+                return View("Error");
+            }
         }
 
-        // ----------------- CREATE ACCOUNT -----------------
         [HttpGet]
-        public IActionResult Create() => View();
+        public IActionResult Create()
+        {
+            try
+            {
+                return View();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading create page.");
+                TempData["Error"] = "Unable to load create page.";
+                return RedirectToAction(nameof(Index));
+            }
+        }
 
         [HttpPost]
-        public async Task<IActionResult> Create(BankAccount dto)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(BankAccountDto dto)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                // If validation fails, redisplay the form
+                if (!ModelState.IsValid)
+                {
+                    return View(dto);
+                }
+
+                var newAccount = new BankAccountDto
+                {
+                    AccountHolder = dto.AccountHolder,
+                    Balance = dto.Balance
+                };
+
+                await _bankService.CreateAccount(newAccount);
+                TempData["Success"] = " Account created successfully!";
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error creating account.");
+                ModelState.AddModelError("", "Unexpected error while creating account.");
                 return View(dto);
             }
-
-            var newAccount = new BankAccountDto
-            {
-                AccountNumber = dto.AccountNumber,
-                AccountHolder = dto.AccountHolder,
-                Balance = dto.Balance
-            };
-
-            await _bankService.CreateAccount(newAccount);
-            TempData["Success"] = "Account created successfully!";
-            return RedirectToAction("Index");
         }
 
-        // ----------------- DEPOSIT -----------------
         [HttpGet]
         public async Task<IActionResult> Deposit(int id)
         {
-            var account = await _accountRepo.GetByIdAsync(id);
-            if (account == null)
-                return NotFound();
+            try
+            {
+                var account = await _accountRepo.GetByIdAsync(id);
+                if (account == null)
+                {
+                    TempData["Error"] = "Account not found.";
+                    return RedirectToAction(nameof(Index));
+                }
 
-            return View(account);
+                var dto = new TransactionDto { AccountId = account.Id };
+                return View(dto);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading deposit page.");
+                TempData["Error"] = "Unable to load deposit page.";
+                return RedirectToAction(nameof(Index));
+            }
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Deposit(TransactionDto dto)
         {
-            if (!ModelState.IsValid)
+            try
             {
+                if (!ModelState.IsValid)
+                {
+                    return View(dto);
+                }
+
+                if (dto.Amount <= 0)
+                {
+                    ModelState.AddModelError("Amount", "Deposit amount must be greater than zero.");
+                    return View(dto);
+                }
+
+                await _bankService.Deposit(dto);
+                TempData["Success"] = " Deposit successful!";
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error processing deposit.");
+                ModelState.AddModelError("", "Deposit failed: " + ex.Message);
                 return View(dto);
             }
-
-            if (dto.Amount <= 0)
-            {
-                ModelState.AddModelError("Amount", "Deposit amount must be greater than zero.");
-                return View(dto);
-            }
-
-            await _bankService.Deposit(dto);
-            TempData["Success"] = "Deposit successful!";
-            return RedirectToAction("Index");
         }
 
-        // ----------------- WITHDRAW -----------------
         [HttpGet]
         public async Task<IActionResult> Withdraw(int id)
         {
-            var account = await _accountRepo.GetByIdAsync(id);
-            if (account == null)
-                return NotFound();
+            try
+            {
+                var account = await _accountRepo.GetByIdAsync(id);
+                if (account == null)
+                {
+                    TempData["Error"] = "Account not found.";
+                    return RedirectToAction(nameof(Index));
+                }
 
-            return View(account);
+                var dto = new TransactionDto { AccountId = account.Id };
+                return View(dto);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading withdraw page.");
+                TempData["Error"] = "Unable to load withdrawal page.";
+                return RedirectToAction(nameof(Index));
+            }
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Withdraw(TransactionDto dto)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(dto);
-            }
-
-            if (dto.Amount <= 0)
-            {
-                ModelState.AddModelError("Amount", "Withdraw amount must be greater than zero.");
-                return View(dto);
-            }
-
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return View(dto);
+                }
+
+                if (dto.Amount <= 0)
+                {
+                    ModelState.AddModelError("Amount", "Withdrawal amount must be greater than zero.");
+                    return View(dto);
+                }
+
                 await _bankService.Withdraw(dto);
-                TempData["Success"] = "Withdrawal successful!";
-                return RedirectToAction("Index");
+                TempData["Success"] = " Withdrawal successful!";
+                return RedirectToAction(nameof(Index));
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
-                ModelState.AddModelError("", ex.Message);
+                _logger.LogError(ex, "Error processing withdrawal.");
+                ModelState.AddModelError("", "Withdrawal failed: " + ex.Message);
                 return View(dto);
             }
         }

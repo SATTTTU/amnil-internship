@@ -27,8 +27,10 @@ namespace AppliationDemo.Repositories
         public async Task<BankAccount> GetByIdAsync(int id)
         {
             using var connection = new NpgsqlConnection(_connectionString);
-            return await connection.QueryFirstOrDefaultAsync<BankAccount>("SELECT * FROM BankAccounts WHERE Id = @Id", new { Id = id });
+            var sql = "SELECT * FROM BankAccounts WHERE Id = @Id";
+            return await connection.QueryFirstOrDefaultAsync<BankAccount>(sql, new { Id = id });
         }
+
 
         public async Task<IEnumerable<BankAccount>> GetAllAsync()
         {
